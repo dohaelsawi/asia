@@ -1,0 +1,272 @@
+*{
+    padding :0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@import url('http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900%display=swap');
+
+body 
+{
+    min-height:100vh;
+    overflow-x: hidden;
+    background: linear-gradient(#131241, #41125A);
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 30px 100px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.num1
+{
+    background: #fff;
+    color: #131241
+}
+.asia{
+    text-decoration: none;
+    border:none;
+    border-radius: 20px;
+    margin-left: 125px;
+    width: 80%;
+    height: 50px;
+    background-color: rgb(223, 217, 143);
+    color: rgb(7, 25, 85);
+    text-align: center;
+    margin-top: 120px;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+h1{
+    background: none;
+}
+h3{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img_makkah{
+    border-radius: 20px;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #fff;
+}
+.left ,.right{
+    background-color: rgb(4, 27, 63);
+    width: 50%;
+    height: 500px;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+
+.makkah-img , .thegreatwall-img{
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.makkah ,.thegreatwall{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.img-kyoto{
+    border-radius: 20px;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.left-1 ,.right-1{
+    background-color: rgb(4, 27, 63);
+    width: 50%;
+    height: 500px;
+    margin: 0 20px;
+    border-radius: 20px;
+    
+}
+.kyoto-img , .tajmahal-img{
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.kytogarden ,.tajmahal{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.img-aqsa{
+    border-radius: 20px;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.left-2 ,.right-2{
+    background-color: rgb(4, 27, 63);
+    width: 50%;
+    height: 500px;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+
+.aqsa-img , .masjidnabawi-img{
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.aqsa ,.masjidnabawi{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.img-ocean{
+    border-radius: 20px;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.left-3 ,.right-3{
+    background-color: rgb(4, 27, 63);
+    width: 50%;
+    height: 500px;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+
+.ocean-img , .thebay-img{
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.ocaen ,.thebay{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.img-Mount{
+    border-radius: 20px;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.left-4 ,.right-4{
+    background-color: rgb(4, 27, 63);
+    width: 50%;
+    height: 500px;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+
+.Mount-img, .bali-img{
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.bali ,.Mount{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+
+
